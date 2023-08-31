@@ -1,8 +1,6 @@
 library("reticulate")
 
-
 use_python("/Users/thupiliabhinav/.virtualenvs/my-environment/bin/python", required = T)
-
 
 scipy <- import("scipy")
 
